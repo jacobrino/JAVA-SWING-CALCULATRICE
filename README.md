@@ -95,7 +95,7 @@ Puis exécution :
 
 **8) Aperçus**
 
-Captures d’écran disponibles dans le dossier docs :
+Captures d’écran disponibles dans le dossier docs et aussi un fichier de rapport en pdf "Programmation calculatrice, ANDRIANJARA Jacob Rino.pdf":
 - 1 Opération.png
 - 2 Résultat opération.png
 
