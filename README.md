@@ -1,13 +1,13 @@
-Application Calculatrice (Java Swing)
+**Application Calculatrice (Java Swing)**
 
-Auteur: ANDRIANJARA Jacob Rino
+**Auteur: ANDRIANJARA Jacob Rino**
 
 Cette application est une calculatrice desktop développée en Java Swing et packagée sous forme de fichier exécutable .jar. Elle a été réalisée dans le cadre d’un projet académique visant à maîtriser la création d’interfaces graphiques en Java, la programmation événementielle et l’implémentation d’un algorithme de calcul d’expressions mathématiques.
 
 L’application offre une interface claire composée d’un afficheur et d’un clavier numérique, tout en prenant en charge la saisie via les boutons et le clavier. Elle permet de construire une expression mathématique sous forme de chaîne puis d’en afficher le résultat, en respectant les règles de priorité opératoire et la gestion des parenthèses.
 
 
-1) Contexte
+**1) Contexte**
 
 Ce projet a été réalisé dans un cadre universitaire(académique) (L1) afin de travailler les notions suivantes : conception d’interface utilisateur en Java Swing, gestion des événements (clics / clavier), organisation du code (séparation UI / logique), et packaging sous forme de JAR pour permettre l’exécution sur n’importe quel système possédant Java.
 
@@ -15,12 +15,12 @@ L’un des points centraux du projet à titre d'amélioration personnel concerne
 Projet dévéloppé en 2019 mais archivé et publié sur GitHub en Décembre 2025 dans le cadre d’un portfolio personnel. 
 
 
-2) Objectifs
+**2) Objectifs**
 
 L’objectif principal était de construire une calculatrice fonctionnelle et ergonomique. Cela implique la gestion complète de l’affichage, des entrées utilisateur et des opérations, mais aussi la mise en place d’un calcul fiable capable de traiter une expression entière, incluant opérateurs, parenthèses et décimaux. Enfin, l’application devait être distribuable facilement via un fichier .jar.
 
 
-3) Fonctionnalités
+**3) Fonctionnalités**
 
 L’application permet notamment :
 
@@ -33,7 +33,7 @@ L’application permet notamment :
 - le contrôle des caractères autorisés lors de la saisie au clavier.
 
 
-4) Évaluation d’expressions et optimisation du calcul
+**4) Évaluation d’expressions et optimisation du calcul**
 
 Le calcul ne se limite pas à une opération simple “étape par étape” : l’application traite l’expression saisie en entier, comme par exemple :
 
@@ -51,10 +51,11 @@ Pour cette raison, nous avons décidé de réécrire l’algorithme de calcul af
 Le cœur de cette logique se trouve principalement dans la classe Calculer.java.
 
 
-5) Structure du projet
+**5) Structure du projet**
 
 Le projet est organisé de manière claire afin de séparer les ressources, le code et le livrable final :
 
+```text
 .
 ├── docs/                 (captures écran / documentation)
 ├── dst/                  (fichier .jar généré)
@@ -67,38 +68,39 @@ Le projet est organisé de manière claire afin de séparer les ressources, le c
 │       ├── tete.jpg
 │       └── fond_autorisation.png
 └── MANIFEST.MF
+```
 
-6) Exécution
+**6) Exécution**
 
 Lancer directement l'application (JAR)
 
 Depuis la racine du projet :
 
-java -jar dst/Calculatrice.jar
+  **java -jar dst/Calculatrice.jar**
 
 
-7) Générer le JAR (Linux)
+**7) Générer le JAR (Linux)**
 
 Les commandes ci-dessous permettent de compiler puis générer un fichier Calculatrice.jar exécutable :
 
-rm -f src/*.class
-javac -d src src/*.java
-echo >> MANIFEST.MF
-jar cfm dst/Calculatrice.jar MANIFEST.MF -C src .
+  **rm -f src/*.class**
+  **javac -d src src/*.java**
+  **echo >> MANIFEST.MF**
+  **jar cfm dst/Calculatrice.jar MANIFEST.MF -C src .**
 
 Puis exécution :
 
-java -jar dst/Calculatrice.jar
+  **java -jar dst/Calculatrice.jar**
 
 
-8) Aperçus
+**8) Aperçus**
 
 Captures d’écran disponibles dans le dossier docs :
 - 1 Opération.png
 - 2 Résultat opération.png
 
 
-9) Ce que j'ai appris
+**9) Ce que j'ai appris**
 
 Ce projet nous a permis de consolider plusieurs compétences importantes :
 
