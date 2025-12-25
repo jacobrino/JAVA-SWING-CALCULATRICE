@@ -14,6 +14,7 @@ Ce projet a été réalisé dans un cadre universitaire(académique) (L1) afin d
 L’un des points centraux du projet à titre d'amélioration personnel concerne également l’évaluation correcte d’expressions mathématiques saisies par l’utilisateur, avec un focus sur la performance et la stabilité.
 Projet dévéloppé en 2019 mais archivé et publié sur GitHub en Décembre 2025 dans le cadre d’un portfolio personnel. 
 
+![Workflow](https://github.com/jacobrino/JAVA-SWING-CALCULATRICE/blob/develop/docs/2%20R%C3%A9sultat%20op%C3%A9ration.png) ![Workflow](https://github.com/jacobrino/JAVA-SWING-CALCULATRICE/blob/develop/docs/1%20Op%C3%A9ration.png)
 
 **2) Objectifs**
 
